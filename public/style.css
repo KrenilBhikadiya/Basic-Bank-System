@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	margin-top:0;
+}
+
+.image {
+	position:absolute;
+	z-index: -1;
+	opacity: 0.8;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	height: 84vh;
+	width: 100vw;
+	justify-content: center;
+}
+
+.nav-links{
+	background-color:#000000;	
+    height:3em;
+ }
+ul{
+	display:flex;
+	justify-content:flex-start;
+	
+}
+li{
+	list-style:none;
+	padding:2px;
+}
+li a{
+	
+	color:white;
+	text-decoration:none;
+	font-family:'Cairo', sans-serif;
+	font-size:15px;
+	padding-top: -2px;
+}
+.link{
+	
+	padding-bottom:2px;
+	margin:10px;
+}
+
+
+.brand{
+	color:grey;
+	font-size:25px;
+	padding:5px;
+	margin-left:10px;
+	font-family:'Open Sans', sans-serif;
+}
+
+/* home page */
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.heading{
+	font-family:'Cairo', sans-serif;
+	font-weight:20px;
+	color:white;
+	font-size:40px;
+	text-shadow: 2px 2px 3px greenyellow;
+}
+.main-content{
+	font-family:'Benne', serif;
+	font-size:30px;
+	color:white;
+}
+.submit{
+	padding:2px 0px;
+	color:white;
+	background-color:#000000;
+	font-family:'Benne', serif;
+	font-size:20px;
+	border:2px solid greenyellow;
+	border-radius: 12px;
+	height: 40px;
+	width: 120px;
+}
+.submit:hover{
+	background-color: gray;
+	border: 2px solid black;
+	color: black;
+	font-weight: bolder;
+}
+
+/* customerlist */
+.view-header{
+	text-align:center;
+	padding:10px;
+	margin:0;
+	background-color:#ffffff;
+}
+table{
+	margin:100;
+	align-content:center;
+	align-items:center;
+	width:100%;
+	background-color:#ffffff;
+	
+}
+.header1 th{
+	background-color:#101177;
+	font-family:'Work Sans', sans-serif;
+	color: lightblue;
+	padding:20px;
+	text-align:center;
+}
+.header2 td{
+	padding:20px;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	border: 1px solid #101177;
+}
+.select-btn{
+	padding:10px;
+	background-color:#0099ff;
+	border-radius:5px;
+	border:none;
+	color: black;
+}
+.select-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.select-btn:hover {
+    background-color: darkblue;
+	color: wheat;
+}
+
+/* transfer */
+.transfer-header{
+	padding:5px;
+	text-align:center;
+	margin:0;
+	background-color:#ffffff;
+   font-family:'Work Sans', sans-serif;
+	font-size:20px;
+}
+.transfer-btn{
+	padding:10px;
+	background-color:#1ac6ff;
+	border:none;
+}
+.transfer-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+/* form */
+.box-container{
+	background-color:#ffffff;
+	margin-left:260px;
+	margin-right:260px;
+	margin-top:60px;
+	padding:25px;
+	display:block;
+}
+.form-body1{
+	font-size:15px;
+	font-family:'Noto Serif', serif;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.transfer1 {
+	margin-top:7px;
+	color:green;
+	font-weight:bold;
+}
+.form{
+	margin-top:5px;
+	text-align:center;
+	padding:2px;
+}
+.form label{
+	font-size:17px;
+	font-family:'Noto Serif', serif;
+}
+.form input{
+	padding:3px;
+	margin:5px;
+	font-size:20px;
+}
+.transfer2-btn{
+	 margin:0;
+	align-items:center;
+    text-transform: uppercase;
+    padding : 0.2rem;
+    background-color: #d7263d;
+    color: whitesmoke;
+}
+.transfer2-btn:hover{
+	background-color:#39ac73;
+}
+/* history */
+.history-header{
+	background-color:#ffffff;
+	font-size:15px;
+	margin:0;
+	padding:7px;
+	text-align:center;
+}
+
+
+
+
