@@ -9,7 +9,7 @@ const methodOverride = require('method-override');
 const User = require('./models/user');
 const Transaction = require('./models/transaction');
 
-mongoose.connect('mongodb://localhost:27017/bank_stand2', {
+mongoose.connect('mongodb+srv://Krenil:Krenil@6945@banksystem.dzhrc.mongodb.net/BankSystem?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
