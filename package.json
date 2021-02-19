@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "shriyanshi",
+  "author": "Krenil",
   "license": "ISC",
   "dependencies": {
     "alert": "^5.0.10",
